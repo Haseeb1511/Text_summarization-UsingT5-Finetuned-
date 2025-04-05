@@ -1,4 +1,4 @@
 # Text_summarization-UsingT5-Custom Finetuned
 
-## Link of Fine TUned model
-``Haseeb1511/t5-finetune-text-summarization``
+
+## Check out my [Hugging Face model](https://huggingface.co/Haseeb1511/t5-finetune-text-summarization).
