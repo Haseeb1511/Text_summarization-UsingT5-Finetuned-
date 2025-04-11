@@ -16,7 +16,7 @@ user_input = st.text_area("Enter passage to summarize below :")
 if st.button("Generate"):
     pipeline = pipeline("summarization", model=model, tokenizer=tokenizer)
     pre_processing = pre_processing(user_input)
-    summary = pipeline(user_input,max_length=150,do_sample=False)
+    summary = pipeline(user_input,max_length=512,do_sample=False)
     result = summary[0]
     st.success(result["summary_text"])
 
